@@ -2,9 +2,9 @@ def my_each(array) # put argument(s) here
   count = 0
   # code here
   while (count < array.length)
-
-    count += 1
     yield
+    count += 1
+
   end
   return array
 end
